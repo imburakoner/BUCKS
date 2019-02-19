@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2E66C90F3BEB282BDCC9A9B4 /* Pods_BUCKS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F23408C505EE4BAE1066EEF /* Pods_BUCKS.framework */; };
 		AD0AC2C1221C9DFB00178ACF /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0AC2C0221C9DFB00178ACF /* Bindable.swift */; };
+		AD0AC2C7221CA2DC00178ACF /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0AC2C6221CA2DC00178ACF /* SplashViewController.swift */; };
+		AD0AC2CC221CA31B00178ACF /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0AC2CB221CA31B00178ACF /* SplashViewModel.swift */; };
 		AD129DFC221C328F003475A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD129DFB221C328F003475A7 /* AppDelegate.swift */; };
 		AD129E01221C328F003475A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD129DFF221C328F003475A7 /* Main.storyboard */; };
 		AD129E03221C3291003475A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD129E02221C3291003475A7 /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 /* Begin PBXFileReference section */
 		6F23408C505EE4BAE1066EEF /* Pods_BUCKS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BUCKS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0AC2C0221C9DFB00178ACF /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		AD0AC2C6221CA2DC00178ACF /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		AD0AC2CB221CA31B00178ACF /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		AD129DF8221C328F003475A7 /* BUCKS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BUCKS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD129DFB221C328F003475A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD129E00221C328F003475A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -73,6 +77,37 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AD0AC2C2221CA29200178ACF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD0AC2C5221CA2B200178ACF /* Splash */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AD0AC2C5221CA2B200178ACF /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				AD0AC2C6221CA2DC00178ACF /* SplashViewController.swift */,
+				AD0AC2CB221CA31B00178ACF /* SplashViewModel.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		AD0AC2C9221CA2F800178ACF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AD0AC2CA221CA2FD00178ACF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		AD129DEF221C328F003475A7 = {
 			isa = PBXGroup;
 			children = (
@@ -104,9 +139,9 @@
 		AD129E0D221C376F003475A7 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
-				AD129E14221C37BC003475A7 /* ViewControllers */,
-				AD129E13221C37B7003475A7 /* Cells */,
-				AD129E12221C37A5003475A7 /* Views */,
+				AD0AC2C2221CA29200178ACF /* ViewControllers */,
+				AD0AC2CA221CA2FD00178ACF /* Views */,
+				AD0AC2C9221CA2F800178ACF /* Cells */,
 				AD129E11221C379E003475A7 /* Storyboards */,
 			);
 			path = Interface;
@@ -151,27 +186,6 @@
 				AD129DFF221C328F003475A7 /* Main.storyboard */,
 			);
 			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		AD129E12221C37A5003475A7 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		AD129E13221C37B7003475A7 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		AD129E14221C37BC003475A7 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		AD129E15221C37CD003475A7 /* App */ = {
@@ -319,6 +333,7 @@
 				AD0AC2C1221C9DFB00178ACF /* Bindable.swift in Sources */,
 				AD189E21221C4370008F7240 /* UICollectionView.swift in Sources */,
 				AD189E23221C4380008F7240 /* UICollectionViewCell.swift in Sources */,
+				AD0AC2CC221CA31B00178ACF /* SplashViewModel.swift in Sources */,
 				AD129DFC221C328F003475A7 /* AppDelegate.swift in Sources */,
 				AD189E1C221C3DB7008F7240 /* UITableViewCell.swift in Sources */,
 				AD189E18221C3D0F008F7240 /* Identifiable.swift in Sources */,
@@ -326,6 +341,7 @@
 				AD242E0C221C921E0056A16A /* UIViewController.swift in Sources */,
 				AD242E0E221C92620056A16A /* Storyboard.swift in Sources */,
 				AD189E1E221C41A0008F7240 /* Nibable.swift in Sources */,
+				AD0AC2C7221CA2DC00178ACF /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

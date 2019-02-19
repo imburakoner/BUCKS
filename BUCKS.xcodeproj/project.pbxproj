@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2E66C90F3BEB282BDCC9A9B4 /* Pods_BUCKS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F23408C505EE4BAE1066EEF /* Pods_BUCKS.framework */; };
+		AD0AC2C1221C9DFB00178ACF /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0AC2C0221C9DFB00178ACF /* Bindable.swift */; };
 		AD129DFC221C328F003475A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD129DFB221C328F003475A7 /* AppDelegate.swift */; };
 		AD129E01221C328F003475A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD129DFF221C328F003475A7 /* Main.storyboard */; };
 		AD129E03221C3291003475A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD129E02221C3291003475A7 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		6F23408C505EE4BAE1066EEF /* Pods_BUCKS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BUCKS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0AC2C0221C9DFB00178ACF /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
 		AD129DF8221C328F003475A7 /* BUCKS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BUCKS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD129DFB221C328F003475A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD129E00221C328F003475A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				AD189E17221C3D0F008F7240 /* Identifiable.swift */,
 				AD189E1D221C41A0008F7240 /* Nibable.swift */,
 				AD242E0D221C92620056A16A /* Storyboard.swift */,
+				AD0AC2C0221C9DFB00178ACF /* Bindable.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0AC2C1221C9DFB00178ACF /* Bindable.swift in Sources */,
 				AD189E21221C4370008F7240 /* UICollectionView.swift in Sources */,
 				AD189E23221C4380008F7240 /* UICollectionViewCell.swift in Sources */,
 				AD129DFC221C328F003475A7 /* AppDelegate.swift in Sources */,

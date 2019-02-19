@@ -1,0 +1,6 @@
+framework module Pods_BUCKS {
+  umbrella header "Pods-BUCKS-umbrella.h"
+
+  export *
+  module * { export * }
+}

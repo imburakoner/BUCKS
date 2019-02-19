@@ -17,7 +17,7 @@ extension UICollectionView {
         self.register(cellType.nib, forCellWithReuseIdentifier: cellType.identifier)
     }
     
-    func dequeueCell<T: UICollectionViewCell>(cellType: T.Type, indexPath: IndexPath) -> T{
+    func dequeueCell<T: UICollectionViewCell>(cellType: T.Type, indexPath: IndexPath) -> T {
         guard let  cell = self.dequeueReusableCell(withReuseIdentifier: cellType.identifier, for: indexPath) as? T else {
             fatalError("Couldn't dequeue cell with identifier: \(cellType.identifier)")
         }
